@@ -1,0 +1,21 @@
+{
+  "name": "openapi-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "watch": "nodemon -e yaml,js --exec \"openapi-comment-parser src docs/openapi.json && node src/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "openapi-comment-parser": "^0.3.7",
+    "eslint": "6.X",
+    "eslint-plugin-openapi": "^0.0.4"
+  }
+}
